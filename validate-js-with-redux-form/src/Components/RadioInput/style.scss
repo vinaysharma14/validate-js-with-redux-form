@@ -1,0 +1,23 @@
+.radio-input-container {
+  .radio-input-label {
+    width: 100%;
+    margin-bottom: 20px;
+
+    .radio-error {
+      margin-left: 3px;
+      color: red;
+    }
+  }
+
+  .invalid {
+    color: red;
+  }
+
+  .radio-button {
+    margin-right: 5px;
+  }
+
+  .radio-button-label {
+    margin-right: 12px;
+  }
+}

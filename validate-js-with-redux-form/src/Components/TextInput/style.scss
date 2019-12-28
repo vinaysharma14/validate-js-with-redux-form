@@ -1,0 +1,31 @@
+.text-input-container {
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0px;
+    box-shadow: none !important;
+
+    &:-webkit-autofill {
+      transition: background-color 5000s ease-in-out 0s;
+    }
+  }
+
+  .field-icon {
+    float: right;
+    cursor: pointer;
+  }
+
+  .is-valid {
+    border-bottom: 1px solid green;
+  }
+
+  .is-invalid {
+    border-bottom: 1px solid red;
+  }
+
+  .async-spinner {
+    margin: 1px 0 0 10px;
+    height: 22px;
+    width: 22px;
+  }
+}
