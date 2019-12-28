@@ -1,0 +1,26 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always",
+        "objects": "always",
+        "imports": "never",
+        "exports": "never",
+        "functions": "never"
+      }
+    ],
+    "lines-between-class-members": "error",
+    "newline-before-return": "error",
+    "quotes": ["error", "single"],
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-wrap-multilines": "off"
+  }
+}
