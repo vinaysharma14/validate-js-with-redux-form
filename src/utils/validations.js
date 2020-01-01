@@ -125,14 +125,19 @@ const validateForm = values => {
   }
 
   const validationErrors = validate(values, constraints);
-  const errors = {};
 
-  Object.keys(validationErrors).forEach((field) => {
-    const fieldError = validationErrors[field][0];
-    errors[field] = fieldError;
-  });
+  if (validationErrors) {
+    const errors = {};
 
-  return errors;
+    Object.keys(validationErrors).forEach((field) => {
+      const fieldError = validationErrors[field][0];
+      errors[field] = fieldError;
+    });
+
+    return errors;
+  }
+
+  return {};
 }
 
 export default validateForm;
