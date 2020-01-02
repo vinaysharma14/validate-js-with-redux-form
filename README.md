@@ -1,6 +1,7 @@
 # Validate JS With Redux Form
 
 ![Image of Form](https://imgur.com/a/DO1qNwA)
+[img]https://i.imgur.com/AjvF04D.png[/img]
 
 This repository you will help you ease the pain of writing complex form validation logic in simple and a declarative way of validating javascript objects.
 
