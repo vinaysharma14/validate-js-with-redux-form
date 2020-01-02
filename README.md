@@ -17,7 +17,7 @@ You can check the [form](https://vinaysharma14.github.io/validate-js-with-redux-
 - Clone the repository and we are good to go!
 
 ``` 
-git clone https://github.com/vinaysharma14/step-sequencer.git
+git clone https://github.com/vinaysharma14/validate-js-with-redux-form.git
 npm install
 npm start
 ```
