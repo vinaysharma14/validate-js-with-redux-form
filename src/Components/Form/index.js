@@ -69,7 +69,7 @@ class Form extends Component {
 
     return (
       <Container className="complex-sign-up-form-container">
-        <p className="form-heading">Redux Form With Validate JS</p>
+        <p className="form-heading">Validate JS With Redux Form</p>
 
         <form onSubmit={handleSubmit(this.handleFormSubmit)}>
           <FormGroupContainer groupLegend="Personal Details">
