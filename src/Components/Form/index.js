@@ -309,7 +309,7 @@ const ReduxFormWithValidateJs = reduxForm({
   form: 'Form',
   validate,
   asyncValidate,
-  asyncBlurFields: ['email',],
+  asyncBlurFields: ['email', 'phoneNumber',],
 })(Form)
 
 Form.propTypes = {
