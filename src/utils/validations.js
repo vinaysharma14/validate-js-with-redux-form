@@ -1,4 +1,5 @@
 import validate from 'validate.js';
+import './customValidators';
 
 const validateForm = values => {
   const constraints = {
@@ -7,11 +8,37 @@ const validateForm = values => {
       presence: {
         message: '^Required',
       },
+
+      // using our own customn validator
+      // to check if first name is string or not
+      // which has been imported from customValidators
+      // named as isString to which we can pass args
+      // in form of a single string or an object
+      // composed of multiple key and value pair
+      isString: {},
+
+      // or we can use a regex like this
+      // to specify if value is string or not
+      // by using the format validator which
+      // tests the value against the
+      // regex provided by us
+
+      // format: {
+      //   pattern: '[A-Za-z]+',
+      //   flags: 'i',
+      //   message: 'cannot have numbers 0-9 and special characters such as _ ! @ # % ^',
+      // },
     },
     lastName: {
       presence: {
         message: '^Required',
       },
+
+      // same custom validator as that of
+      // first name is used here to check if
+      // last name is string or not
+      isString: {},
+
       equality: {
         attribute: 'firstName',
         message: 'cannot be same as first name',
