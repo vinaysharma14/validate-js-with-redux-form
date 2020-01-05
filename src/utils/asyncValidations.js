@@ -1,6 +1,8 @@
 import validate from 'validate.js';
 import './asyncValidators';
 
+import mapFormErrors from './mapFormErrors';
+
 const asyncFormValidation = async values => {
 
   // the validators must work only
@@ -30,14 +32,7 @@ const asyncFormValidation = async values => {
   // { fieldName: errorMessage, }
   // and send the errors back to form
   if (validationErrors) {
-    const errors = {};
-
-    Object.keys(validationErrors).forEach((field) => {
-      const fieldError = validationErrors[field][0];
-      errors[field] = fieldError;
-    });
-
-    throw errors;
+    throw mapFormErrors(validationErrors);
   }
 };
 

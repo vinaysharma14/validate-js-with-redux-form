@@ -1,6 +1,8 @@
 import validate from 'validate.js';
 import './customValidators';
 
+import mapFormErrors from './mapFormErrors';
+
 const validateForm = values => {
   const constraints = {
     // Personal Details
@@ -158,14 +160,7 @@ const validateForm = values => {
   const validationErrors = validate(values, constraints);
 
   if (validationErrors) {
-    const errors = {};
-
-    Object.keys(validationErrors).forEach((field) => {
-      const fieldError = validationErrors[field][0];
-      errors[field] = fieldError;
-    });
-
-    return errors;
+    return mapFormErrors(validationErrors);
   }
 
   return {};
