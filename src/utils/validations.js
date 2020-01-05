@@ -16,7 +16,11 @@ const validateForm = values => {
         attribute: 'firstName',
         message: 'cannot be same as first name',
         comparator(lastName, firstName) {
-          return lastName.toLowerCase() !== firstName.toLowerCase();
+          if (firstName) {
+            return lastName.toLowerCase() !== firstName.toLowerCase();
+          }
+
+          return false;
         },
       },
     },
