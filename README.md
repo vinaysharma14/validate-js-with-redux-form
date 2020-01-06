@@ -9,7 +9,7 @@ The project is written in React JS.
 
 ## Demo
 
-You can check the [form](https://vinaysharma14.github.io/validate-js-with-redux-form/), deployed using GitHub Pages.
+You can check the [form](https://vinaysharma14.github.io/validate-js-with-redux-form/) here, deployed using GitHub Pages.
 
 ## Installation
 
