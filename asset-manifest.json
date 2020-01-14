@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/validate-js-with-redux-form/static/css/main.ba4d2ae6.chunk.css",
+    "main.js": "/validate-js-with-redux-form/static/js/main.1037f63d.chunk.js",
+    "main.js.map": "/validate-js-with-redux-form/static/js/main.1037f63d.chunk.js.map",
+    "runtime-main.js": "/validate-js-with-redux-form/static/js/runtime-main.c0870024.js",
+    "runtime-main.js.map": "/validate-js-with-redux-form/static/js/runtime-main.c0870024.js.map",
+    "static/css/2.0fd445ee.chunk.css": "/validate-js-with-redux-form/static/css/2.0fd445ee.chunk.css",
+    "static/js/2.2b20463a.chunk.js": "/validate-js-with-redux-form/static/js/2.2b20463a.chunk.js",
+    "static/js/2.2b20463a.chunk.js.map": "/validate-js-with-redux-form/static/js/2.2b20463a.chunk.js.map",
+    "index.html": "/validate-js-with-redux-form/index.html",
+    "precache-manifest.56123d198a65e8a20a76be2201238f72.js": "/validate-js-with-redux-form/precache-manifest.56123d198a65e8a20a76be2201238f72.js",
+    "service-worker.js": "/validate-js-with-redux-form/service-worker.js",
+    "static/css/2.0fd445ee.chunk.css.map": "/validate-js-with-redux-form/static/css/2.0fd445ee.chunk.css.map",
+    "static/css/main.ba4d2ae6.chunk.css.map": "/validate-js-with-redux-form/static/css/main.ba4d2ae6.chunk.css.map",
+    "static/js/2.2b20463a.chunk.js.LICENSE": "/validate-js-with-redux-form/static/js/2.2b20463a.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0870024.js",
+    "static/css/2.0fd445ee.chunk.css",
+    "static/js/2.2b20463a.chunk.js",
+    "static/css/main.ba4d2ae6.chunk.css",
+    "static/js/main.1037f63d.chunk.js"
+  ]
+}
